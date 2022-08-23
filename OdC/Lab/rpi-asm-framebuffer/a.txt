@@ -1,0 +1,55 @@
+
+	mov x13, 400
+	mov x14, 20
+
+	// movz x16, 0xd4, lsl 16	// body yellow
+	movk x16, 0xd4d4, lsl 0
+	
+	// movz x9, 0xb4, lsl 16 	// shadow yellow
+	movk x9, 0xb4b4, lsl 0
+
+	// movz x10, 0xd4, lsl 16	// brown details 
+	movk x10, 0x7ad4, lsl 0	
+	
+	bl fish1
+
+
+	bl fish1
+
+	mov x13, 30
+	mov x14, 40
+	
+	bl pufferfish
+
+	mov x13, 400
+	mov x14, 280
+
+	bl jaws
+
+	mov x13, 210
+	mov x14, 100
+
+	movz x16, 0xd4, lsl 16	// body yellow
+	movk x16, 0xd400, lsl 0
+	
+	movz x9, 0xb4, lsl 16 	// shadow yellow
+	movk x9, 0xb400, lsl 0
+
+	movz x10, 0xd4, lsl 16	// brown details 
+	movk x10, 0x7a00, lsl 0	
+	
+	bl fish1
+
+	mov x13, 170
+	mov x14, 130
+
+	movz x16, 0xd4, lsl 16	// body yellow
+	movk x16, 0x00d4, lsl 0
+	
+	movz x9, 0xb4, lsl 16 	// shadow yellow
+	movk x9, 0x00b4, lsl 0
+
+	movz x10, 0xd4, lsl 16	// brown details 
+	movk x10, 0x007a, lsl 0	
+	
+	bl fish1

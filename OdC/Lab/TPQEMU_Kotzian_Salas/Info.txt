@@ -1,0 +1,9 @@
+Bruno Kotzian,	DNI: 42438581
+Pedro Salas, 	DNI: 44273547
+
+---------------------------------
+Nuestro codigo, mediante llamadas a una rutina base 'r', que dibuja rectangulos, genera una imagen de pixel art de un fondo marino, con corales y plantas acuaticas. Todas las figuras son generadas con sus propias rutinas, por lo que esta bastante modularizado, y podemos pintar cuantas querramos.
+---------------------------------
+
+
+En el archivo app.s se encuentra nuestro codigo. El registro x17 esta usado como un escalador de cuanto dura cada frame, dentro de app.s encontrarán instrucciones de como modificarlo por cualquier cosa. :)
